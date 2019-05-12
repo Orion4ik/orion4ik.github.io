@@ -16,7 +16,7 @@ a{
 
 /* Header */
 .body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .header {
         background: #ffffff;
@@ -27,6 +27,7 @@ width: 90%;
 margin: 0 auto;
 display:flex;
 justify-content: space-between;
+font-family: 'Raleway', sans-serif;
 }
 .header-container a{
     color: black;
@@ -49,12 +50,27 @@ nav{
 }
 
 .top-slide{
-    background: url(/img/first_bg.jpg);
+    background: url(/img/first_bg.jpg) no-repeat;
+    padding-top: 120px;
+    padding-bottom: 300pt;
+    font-family: 'Raleway', sans-serif;
 }
 .top-slide h2{
     background:#FFC300;
     display: inline;
     font-size: 70px;
+    padding: 0px 13px;
+
+}
+.top-slide:nth-child(2){
+    margin-bottom: 10px;
+}
+.top-slide p{
+    background:#212F3D;
+    display: inline;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 0px 4px;
 
 }
 .top-container{
